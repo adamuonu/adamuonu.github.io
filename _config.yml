@@ -28,9 +28,11 @@ twitter_username: OnuAdemu
 github_username:  adamuonu
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,4 +53,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: "/:categories/:title"
+# permalink: "/:categories/:title"
