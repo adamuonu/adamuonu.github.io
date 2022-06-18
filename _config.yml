@@ -26,10 +26,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: OnuAdemu
 github_username:  adamuonu
+show_downloads: true
 
 # Build settings
-# theme: minima
-remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
+# theme: just-the-docs
+# remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/tactile@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -54,3 +57,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 # permalink: "/:categories/:title"
+
+# aux_links:
+#   "View my ResearchGate profile": 
+#     - "//www.researchgate.net/profile/Adamu-Onu-2"
+
+# aux_links_new_tab: true
