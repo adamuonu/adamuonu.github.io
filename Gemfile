@@ -11,3 +11,10 @@ gem "github-pages", group: :jekyll_plugins
 gem "webrick"
 
 gem "faraday-retry"
+
+# gem "jekyll-remote-theme", group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+end

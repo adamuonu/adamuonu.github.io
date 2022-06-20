@@ -3,3 +3,17 @@ description: "A space for my projects, 'experiments', and random musings"
 base_url: ""
 url: ""
 
+# remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# remote_theme: BDHU/minimalist
+
+
+sidebar:
+  true
+
+github:
+  repository_url: "https://github.com/adamuonu"
+

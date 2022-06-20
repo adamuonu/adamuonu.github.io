@@ -260,6 +260,8 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
+  jekyll-feed
+  jekyll-sitemap
   webrick
 
 BUNDLED WITH
