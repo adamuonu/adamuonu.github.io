@@ -1,0 +1,171 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+$brand-color: rgb(22, 37, 54);
+$alternate-color: rgba(211, 181, 151, 0.2);
+$header-color: rgba(211, 181, 151, 0.9);
+$brand-text-color: #dee5fd;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  // background-color: rgba(245, 245, 245, 0.8);
+  width: 75%;
+  background-color: rgba(222, 222, 222, 0.9);
+  margin: 0 auto;
+  font: 1.1em Arial, Helvetica, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navigation,
+.content {
+  float: left;
+  // padding: 15px;
+  height: 100vh;
+}
+
+.navigation {
+  width: 25%;
+  padding: 15px;
+  background-color: $alternate-color;
+  border-right: 1px dotted $header-color;
+}
+
+.content {
+  width: 75%;
+  padding: 64px 60px 40px 64px;
+  text-align: justify;
+}
+
+.header,
+.footer {
+  width: 100%;
+  height: 64px;
+  float: left;
+  background-color: $brand-color;
+  color: $header-color;
+}
+
+.header {
+  padding: 16px;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header,
+.content {
+  box-shadow: 5px 0.5px 5px $alternate-color;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.navigation li {
+  display: block;
+  padding: 8px;
+  margin-bottom: 7px;
+  // background-color: $alternate-color;
+  // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  // box-shadow: 0 1px 3px $alternate-color, 0 1px 2px $header-color;
+}
+
+.navigation li:hover {
+  background-color: $alternate-color;
+  border: 0.5px solid $alternate-color;
+  box-shadow: 0 1px 3px $alternate-color, 0 1px 2px $header-color;
+  cursor: pointer;
+}
+
+.navigation li a {
+  margin: 0;
+  text-decoration: none;
+  color: $brand-color;
+}
+
+// .header,
+// .footer,
+// .navigation,
+// .content {
+//   border: 1px solid #999;
+// }
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .navigation,
+  .content {
+    width: 100%;
+    height: max-content;
+  }
+  
+}
+
+// h1,
+// h2,
+// h3 {
+//   text-align: center;
+// }
+
+hr {
+  border-top: 0.3px dotted $brand-color;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.header>a {
+  display: inline;
+  margin: 0;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: $header-color
+}
+
+.header>a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.header>a:visited {
+  color: reset;
+}
+
+
+// .navigation li a:hover {
+//   font-size: 1em;
+//   font-weight: bold;
+//   // background-color: $brand-color;
+//   color: white;
+// }
+
+// .navigation li a:visited {
+//   color: reset;
+// }
+
+// .toc {
+//   top: 64px;
+//   //width: 200px;
+//   font-size: 0.9em;
+//   line-height: 1;
+//   height: 100vmax;
+// }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Blog Posts
 sidebar: false
 ---
 <h1>Latest Posts</h1>
@@ -9,7 +9,7 @@ sidebar: false
     {% for post in site.posts %}
         <li>
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {{ post.excerpt | markdownify }}
+            {{ post.excerpt  | markdownify | strip_html | truncatewords: 25  }}
         </li>
     {% endfor %}
 </ul>

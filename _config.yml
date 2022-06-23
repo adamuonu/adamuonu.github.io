@@ -10,6 +10,7 @@ plugins:
 
 # remote_theme: BDHU/minimalist
 
+markdown: kramdown
 
 sidebar:
   true
@@ -17,3 +18,4 @@ sidebar:
 github:
   repository_url: "https://github.com/adamuonu"
 
+excerpt_separator: <!--more-->

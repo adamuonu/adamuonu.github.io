@@ -1,16 +1,18 @@
 ---
 layout: post
+author: Adamu Onu
+title: Leadership Theory and Maternal Mortality in Nigeria
 ---
-
-<!-- ## Abstract -->
+## Abstract
 
 Maternal mortality is a significant public health problem in Nigeria. Despite a stated National Health Policy which articulates strategies to reduce maternal mortality, it is still a big problem with Nigeria contributing 19% of global pregnancy-related deaths. The high maternal mortality rate arises from a complex and dynamic interaction of several individual-related and community-related factors which are worsened by the lack of an organizing framework. This paper presents the path-goal theory of leadership as a leadership theory for organizing maternal health services in Nigeria. The path-goal theory is a conceptual leadership model which is pragmatic and adaptable at the different levels of government and in different situations. The path-goal theory also is suitable for using the systems thinking approach to implementing programs designed to reduce maternal mortality in Nigeria in an integrated way. Evaluation of the path-goal theory can be done at the state and community level to assess which path-goal leadership styles predict the use of antenatal care.
+<!--more-->
 
-## Leadership Theory and Maternal Mortality in Nigeria
+## Introduction
 
 The World Health Organization (2018) defines maternal mortality as “the death of a woman during pregnancy or within 42 days of delivery or termination of the pregnancy, regardless of the duration and location of the pregnancy, from any cause related to or exacerbated by the pregnancy or its management”. Maternal mortality is a proxy measure of the quality of a country’s health care system. It is also an indicator of economic and gender equality and health equity (Afulukwe-Eruchalu, 2017). One of the key objectives of the National Health Policy and Strategy to Achieve Health for all Nigerians is the reduction of maternal mortality. The National Health Policy outlines strategies to achieve this reduction. These strategies include improving equitable access to reproductive health services and ensuring that resources required to provide such services are available (Federal Ministry of Health, 2016).
 
-### Literature Review
+## Literature Review
 
 Nigeria has one of the highest maternal mortality ratios (MMR) in the world. There were 814 [95% CI 596, 1180] deaths per 100,000 live births in 2016 in Nigeria which is approximately 58,000 maternal deaths annually in Nigeria. This figure is the highest number of maternal deaths of any country. About 19% of global maternal deaths occur in Nigeria (World Health Organization et al., 2015). 
 

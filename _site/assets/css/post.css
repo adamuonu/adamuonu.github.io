@@ -46,3 +46,11 @@ nav li a:visited { color: reset; }
   nav { grid-column: 1 / 13; grid-row: 2; height: 100vh; }
   article { grid-column: 1 / 13; grid-row: 3; padding: 10px; height: 100%; }
   footer { grid-column: 1 / 13; grid-row: 4; height: max-content; } }
+header { position: fixed; width: 75%; }
+
+header > span > a { color: rgba(211, 181, 151, 0.9) !important; }
+
+nav { position: fixed; top: 64px; font-size: 12pt; line-height: 1.2; height: 100vmax; width: 360px; }
+
+@media only screen and (max-width: 768px) { header { position: relative; width: 100%; }
+  nav { display: none; } }

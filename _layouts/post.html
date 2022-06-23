@@ -1,8 +1,34 @@
 ---
-layout: default
-sidebar: false
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}  {{ page.author }}</p>
+<!DOCTYPE html>
+<html lang="en">
 
-{{ content }}
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="/assets/css/post.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}">{{ item.icon }}&nbsp;{{ item.name }}</a>
+            {% endfor%}
+            <span style="float: right;"><a href="{{ page.url }}">{{ page.title }}</a></span>
+        </header>
+        <nav>
+            <h3>In this article</h3>
+            {% include toc.html html=content %}
+        </nav>
+        <article class="content">
+            <p>{{ page.author}} <em>{{ page.date | date_to_string}}</em></p>
+            {{ content }}
+        </article>
+    </div>
+</body>
+
+</html>
