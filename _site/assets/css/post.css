@@ -6,7 +6,9 @@ hr { border-top: 0.3px dotted #162536; }
 
 ul { list-style-type: none; }
 
-a, a:hover, a:visited { text-decoration: none; color: #333; }
+a, a:visited { text-decoration: none; color: #333; }
+
+.active { color: #162536; font-weight: 600; background-color: rgba(211, 181, 151, 0.9); box-shadow: 0 1px 3px rgba(211, 181, 151, 0.2), 0 1px 2px rgba(211, 181, 151, 0.9); }
 
 .container { margin-left: auto; margin-right: auto; width: 75%; display: grid; grid-template-columns: repeat(12, 1fr); }
 
@@ -22,9 +24,9 @@ header, footer { background-color: #162536; height: 64px; color: rgba(211, 181, 
 
 header, article { box-shadow: 5px 0.5px 5px rgba(211, 181, 151, 0.2); }
 
-article, nav { height: auto; }
+article, nav { height: 100vh; }
 
-nav { border-right: 1px dotted rgba(211, 181, 151, 0.2); }
+nav { padding-top: 0; padding-left: 0; padding-right: 0; border-right: 1px dotted rgba(211, 181, 151, 0.2); }
 
 header > a { display: inline; margin: 0; text-decoration: none; padding: 8px 16px; color: rgba(211, 181, 151, 0.9) !important; }
 
@@ -34,16 +36,19 @@ header > a:visited { color: reset; }
 
 nav ul { list-style-type: none; margin: 0; padding: 0; }
 
-nav li a { display: block; margin: 0; text-decoration: none; padding: 8px 16px; color: #162536; }
+nav li a { display: block; margin: 0; text-decoration: none; padding: 8px 16px; color: #333; }
 
-nav li a:hover { font-size: 1em; font-weight: bold; background-color: #162536; color: white; }
+nav li a:hover { font-size: 1em; font-weight: bold; background-color: rgba(211, 181, 151, 0.9); color: #162536; }
 
 nav li a:visited { color: reset; }
+
+article a:hover { color: #162536; font-weight: bold; text-decoration: underline; }
 
 @media only screen and (max-width: 768px) { /* For mobile phones: */
   body { font-size: 0.9em; }
   header { grid-column: 1 / 13; grid-row: 1; height: max-content; font-size: 0.9em; }
-  nav { grid-column: 1 / 13; grid-row: 2; height: 100vh; }
+  header > a { display: block; }
+  nav { grid-column: 1 / 13; grid-row: 2; height: 100%; }
   article { grid-column: 1 / 13; grid-row: 3; padding: 10px; height: 100%; }
   footer { grid-column: 1 / 13; grid-row: 4; height: max-content; } }
 header { position: fixed; width: 75%; }

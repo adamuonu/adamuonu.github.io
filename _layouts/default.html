@@ -22,7 +22,7 @@ layout: default
             <ul>
             {% for item in site.data.navigation %}
                 <li>
-                    <a href="{{ item.link }}">{{ item.icon }}&nbsp;{{ item.name }}</a>
+                    <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>{{ item.icon }}&nbsp;{{ item.name }}</a>
                 </li>
             {% endfor%}
             <br><br>
@@ -38,7 +38,9 @@ layout: default
         <article class="content">
             {{ content }}
         </article>
-        <footer class=" footer">Personal Webpage of Dr Adamu Onu</footer>
+        <footer class=" footer">
+            <p>&copy; {{ 'now' | date: "%Y"}} Personal Webpage of Dr Adamu Onu</p>
+        </footer>
     </div>
 </body>
 

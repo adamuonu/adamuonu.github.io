@@ -4,45 +4,21 @@
 
 header {
   position: fixed;
-  // grid-column: 1 / 13;
   width: 75%;
 }
 
 header>span>a {
-  color: $header-color !important;
+  color: $header-color  !important;
 }
-
-// .content {
-//   padding-top: 64px;
-//   padding-bottom: 64px;
-//   margin-left: 25%;
-//   height: fit-content;
-// }
 
 nav {
   position: fixed;
-  // grid-row: 2;
   top: 64px;
   font-size: 12pt;
   line-height: 1.2;
   height: 100vmax;
   width: 360px;
-  // word-wrap: inherit;
 }
-
-// .navigation li {
-//   background-color: reset;
-// }
-// .navigation li a {
-//   font-size: 0.9em;
-// }
-
-// .navigation li:hover {
-//   background-color: transparent !important;
-//   border: none !important;
-//   box-shadow: none;
-//   text-decoration: wavy !important;
-// }
 
 @media only screen and (max-width: 768px) {
   header {
@@ -54,7 +30,4 @@ nav {
     display: none;
   }
 
-  // article {
-  //   grid-row: 2;
-  // }
 }
