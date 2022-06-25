@@ -5,6 +5,7 @@ $alternate-color: rgba(211, 181, 151, 0.2);
 $header-color: rgba(211, 181, 151, 0.9);
 $brand-text-color: #dee5fd;
 $text-color: #333;
+$background-color: rgba(220, 218, 218, 0.8);
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,8 @@ $text-color: #333;
 
 body {
   position: relative;
-  background-color: rgba(245, 245, 245, 0.8);
+  // background-color: rgba(245, 245, 245, 0.8);
+  background-color: $background-color;
   margin: 0;
   font: 1.1em Arial, Helvetica, Verdana, sans-serif;
   color: $text-color;
