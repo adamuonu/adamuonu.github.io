@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/2022/06/18/first-post.html</loc>
-<lastmod>2022-06-18T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2022/06/20/leadership-theory-and-maternal-mortality.html</loc>
-<lastmod>2022-06-20T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/courses.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/docs/resume.pdf</loc>
-<lastmod>2022-06-12T14:52:22+01:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://adamuonu.github.io/posts/welcome/index.html</loc>
+    <lastmod>2022-07-27T23:34:38.872Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adamuonu.github.io/posts/visualize-data/index.html</loc>
+    <lastmod>2022-07-27T23:34:39.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adamuonu.github.io/about.html</loc>
+    <lastmod>2022-07-27T23:34:39.936Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adamuonu.github.io/courses.html</loc>
+    <lastmod>2022-07-27T23:34:40.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adamuonu.github.io/index.html</loc>
+    <lastmod>2022-07-27T23:37:39.821Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adamuonu.github.io/projects.html</loc>
+    <lastmod>2022-07-27T23:34:40.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://adamuonu.github.io/publications.html</loc>
+    <lastmod>2022-07-27T23:34:41.072Z</lastmod>
+  </url>
 </urlset>

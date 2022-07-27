@@ -1,0 +1,15 @@
+---
+title: "Blog Posts"
+listing:
+  type: default
+  contents: posts
+  fields: [image, description, date, title, author, reading-time]
+  page-size: 10
+  sort: "date desc"
+  feed: true
+  categories: true
+  sort-ui: true
+  filter-ui: false
+page-layout: article
+title-block-banner: false
+---
