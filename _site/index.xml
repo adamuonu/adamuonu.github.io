@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Dr Adamu Onu</title>
-<link>https://adamuonu.github.io/index.html</link>
-<atom:link href="https://adamuonu.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://github.com/adamuonu/adamuonu.github.io/index.html</link>
+<atom:link href="https://github.com/adamuonu/adamuonu.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.0.25</generator>
 <lastBuildDate>Sun, 24 Jul 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>The importance of visualizing your data</title>
   <dc:creator>Adamu Onu</dc:creator>
-  <link>https://adamuonu.github.io/posts/visualize-data/index.html</link>
+  <link>https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/index.html</link>
   <description><![CDATA[ 
 
 
@@ -118,7 +118,7 @@
 <div class="cell-output-display">
 <div id="fig-scatterplot01" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot01-1.png" class="img-fluid figure-img"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot01-1.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Figure 1: Daily number of patients vs.&nbsp;daily mean waiting time</figcaption><p></p>
 </figure>
 </div>
@@ -128,7 +128,7 @@
 <div class="cell-output-display">
 <div id="fig-scatterplot02" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot02-1.png" class="img-fluid figure-img"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot02-1.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Figure 2: Clustering of observations by weekday</figcaption><p></p>
 </figure>
 </div>
@@ -145,7 +145,7 @@
 <div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-scatterplot03-1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot03-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot03-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
 <p></p><figcaption class="figure-caption">(a) Overall regression line</figcaption><p></p>
 </figure>
 </div>
@@ -153,7 +153,7 @@
 <div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-scatterplot03-2" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot03-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot03-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot03"></p>
 <p></p><figcaption class="figure-caption">(b) By weekday groups</figcaption><p></p>
 </figure>
 </div>
@@ -173,7 +173,7 @@
 <div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-scatterplot04-1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot04-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot04-1.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
 <p></p><figcaption class="figure-caption">(a) Overall regression line</figcaption><p></p>
 </figure>
 </div>
@@ -181,7 +181,7 @@
 <div class="cell-output-display quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-scatterplot04-2" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot04-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot04-2.png" class="img-fluid figure-img" data-ref-parent="fig-scatterplot04"></p>
 <p></p><figcaption class="figure-caption">(b) By weekday groups</figcaption><p></p>
 </figure>
 </div>
@@ -369,7 +369,7 @@
 <div class="cell-output-display">
 <div id="fig-forest" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="https://adamuonu.github.io/posts/visualize-data/fig-forest-1.png" class="img-fluid figure-img"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-forest-1.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Figure 5: Forest plot of standardized regression coefficients</figcaption><p></p>
 </figure>
 </div>
@@ -394,29 +394,29 @@ Note
 
  ]]></description>
   <category>data visualization</category>
-  <guid>https://adamuonu.github.io/posts/visualize-data/index.html</guid>
+  <guid>https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/index.html</guid>
   <pubDate>Sun, 24 Jul 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://adamuonu.github.io/posts/visualize-data/fig-scatterplot01-1.png" medium="image" type="image/png" height="103" width="144"/>
+  <media:content url="https://github.com/adamuonu/adamuonu.github.io/posts/visualize-data/fig-scatterplot01-1.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Adamu Onu</dc:creator>
-  <link>https://adamuonu.github.io/posts/welcome/index.html</link>
+  <link>https://github.com/adamuonu/adamuonu.github.io/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
 
 
 <p>Personal webpage of Dr.&nbsp;Adamu Onu</p>
-<p><img src="https://adamuonu.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://github.com/adamuonu/adamuonu.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>This is blog is a space for my projects, “experiments”, and random musings.</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://adamuonu.github.io/posts/welcome/index.html</guid>
+  <guid>https://github.com/adamuonu/adamuonu.github.io/posts/welcome/index.html</guid>
   <pubDate>Sat, 23 Jul 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://adamuonu.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://github.com/adamuonu/adamuonu.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

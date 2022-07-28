@@ -1,1 +1,1 @@
-Sitemap: https://adamuonu.github.io/sitemap.xml
+Sitemap: https://github.com/adamuonu/adamuonu.github.io/sitemap.xml
